@@ -16,8 +16,12 @@
 
      ![](img/dwarf_options.png)
 
-4. In _Debugger_ -> _Process options_ set the hostname to `localhost` and the port to `2345`
+4. From the debug toolbar dropdown menu, select _Remote GDB debugger_
+
+     ![](img/dbg_dropdown.png)
+
+5. In _Debugger_ -> _Process options_ set the hostname to `localhost` and the port to `2345`
 
      ![](img/gdb_options.png)
 
-5. Recreate the GBA memory layout in the Segments window [Shift+F7] (optional if you loaded an ELF file)
+6. Recreate the GBA memory layout in the Segments window [Shift+F7] (optional if you loaded an ELF file)
